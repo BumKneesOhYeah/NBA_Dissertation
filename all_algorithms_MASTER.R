@@ -1197,12 +1197,13 @@ print(feature_set)
 ## 6 - raf
 ## 7 - svm
 
-  x_ann_knn =Results(c(666),c(1),c(1,3))
-  x_Bag =Results(c(666),c(1),c(2))
-  x_Log =Results(c(666),c(1),c(4))
-  x_nab =Results(c(666),c(1),c(5))
+  x_ann_knn =Results(c(2000:2016),c(1),c(1,3))
+  x_Bag =Results(c(2000:2016),c(1),c(2))
+  x_Log =Results(c(2000:2016),c(1),c(4))
+  x_nab =Results(c(2000:2016),c(1),c(5))
 
-  x_raf =Results(c(666),c(1),c(6))
-  x_svm =Results(c(666),c(1),c(7))
-
-  xxx = Results(c(2016),7,c(1:7))
+  x_raf =Results(c(2000:2016),c(1),c(6))
+  x_svm =Results(c(2000:2016),c(1),c(7))
+  
+  ## get all results   very time consuming.. very very very time consuming
+  xxx = Results(c(2000:2016),c(1:4),c(1:7))
